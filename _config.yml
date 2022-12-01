@@ -1,0 +1,16 @@
+---
+title: LOLDrivers
+
+exclude: ['/Gemfile', '/Makefile', '/README.md', '/NOTICE.md', 'LICENSE']
+
+permalink: pretty
+
+collections:
+  loldrivers:
+    output: true
+
+defaults:
+  - scope:
+      path: '_loldrivers'
+    values:
+      layout: 'bin'
